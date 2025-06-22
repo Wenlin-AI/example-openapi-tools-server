@@ -6,7 +6,7 @@
 
   ```bash
   uv venv .venv
-  uv install
+  uv pip install .
   ```
 
   You don't need to activate the environment when running `uv` commands.

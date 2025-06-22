@@ -67,8 +67,8 @@ Or, to install and develop locally using `uv`:
 3. **Install with uv**
 
    ```bash
-   uv install       # Installs dependencies from pyproject.toml
-   uv develop       # Editable install for live coding
+   uv pip install .            # Installs dependencies from pyproject.toml
+   uv pip install --editable . # Editable install for live coding
    ```
 
 4. **Run locally**
