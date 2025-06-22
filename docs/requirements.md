@@ -25,3 +25,7 @@
   tracked and verified. Use the prefix `REQ-` followed by a sequence number
   (for example `REQ-001`, `REQ-002`, and so on).
 
+* **REQ-005**: Tool servers MUST provide a command-line interface to start the
+  service. The CLI SHOULD expose `--host` and `--port` options so users can run
+  the server after installing it from PyPI or GitHub.
+
