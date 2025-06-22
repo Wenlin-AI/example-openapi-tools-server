@@ -55,14 +55,23 @@ Or, to install and develop locally using `uv`:
    cd example-openapi-tools-server
    ```
 
-2. **Install with uv**
+2. **Create a virtual environment with uv**
+
+   ```bash
+   uv venv .venv
+   ```
+
+   When using `uv`, activation isn't required. Commands will automatically use
+   the `.venv` directory.
+
+3. **Install with uv**
 
    ```bash
    uv install       # Installs dependencies from pyproject.toml
    uv develop       # Editable install for live coding
    ```
 
-3. **Run locally**
+4. **Run locally**
 
    ```bash
    uv run --host 0.0.0.0 --port 8123
@@ -174,5 +183,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
 
 ## License
 
-MIT © Your Name
+MIT © Henri Wenlin
 

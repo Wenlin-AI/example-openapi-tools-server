@@ -1,10 +1,10 @@
 [project]
 name = "example-openapi-tools-server"
-version = "0.1.0"
+version = "0.0.1"
 description = "Example OpenAPI tools server"
 readme = "README.md"
 requires-python = ">=3.10"
-authors = [{name = "Your Name", email = "you@example.com"}]
+authors = [{name = "Henri Wenlin", email = "henri.wenlin@gmail.com"}]
 license = {text = "MIT"}
 
 dependencies = [
