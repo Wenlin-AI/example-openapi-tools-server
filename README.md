@@ -33,6 +33,7 @@ This repository provides a reference implementation of **OpenAPI Tool Servers**â
 - **Interactive Docs**: Swagger UI at `/doc`
 - **Stubbed Endpoints**: Prebuilt routers (`/time`, `/echo`, `/math`) returning canned data
 - **Packaging**: Managed via `uv` with `pyproject.toml` ready for PyPI
+- **CLI**: Start the server with the `example-openapi-tools-server` command
 - **Dockerized**: Official `Dockerfile` for quick container builds with examples how you can get your server running with minimal effort
 - **Examples**: Integration snippets for Open WebUI, MCPO, LangChain, Langflow and others
 
@@ -74,7 +75,7 @@ Or, to install and develop locally using `uv`:
 4. **Run locally**
 
    ```bash
-   uv run --host 0.0.0.0 --port 8123
+   example-openapi-tools-server --host 0.0.0.0 --port 8123
    ```
 
 Visit [http://localhost:8123/docs](http://localhost:8123/docs) to explore.
