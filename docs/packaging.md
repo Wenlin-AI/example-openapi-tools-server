@@ -5,7 +5,7 @@ virtual environment and install dependencies before packaging for PyPI:
 
 ```bash
 uv venv .venv
-uv install
+uv pip install .
 ```
 
 `uv` automatically detects the `.venv` directory, so activation isn't
