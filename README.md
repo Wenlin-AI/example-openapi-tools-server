@@ -1,6 +1,6 @@
 ## Overview
 
-This repository provides a reference implementation of **OpenAPI Tool Servers**—lightweight, self-contained HTTP services exposing dummy or example endpoints via an OpenAPI 3.x specification. It’s designed for rapid experimentation, sandboxed testing (Codex, LLM environments), and integration with AI agents or UIs. You can use this template to:
+This repository provides a reference implementation of **OpenAPI Tool Servers**—lightweight, self-contained HTTP services exposing dummy or example endpoints. It’s designed for rapid experimentation, sandboxed testing (Codex, LLM environments), and integration with AI agents or UIs. You can use this template to:
 
 - Learn how to build a spec-first server with FastAPI
 - Package your server for PyPI with the `uv` manager
