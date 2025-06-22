@@ -1,0 +1,65 @@
+openapi: 3.0.1
+info:
+  title: Example OpenAPI Tools Server
+  version: "1.0.0"
+paths:
+  /time:
+    get:
+      summary: Get current time
+      responses:
+        '200':
+          description: Current time
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  time:
+                    type: string
+                    format: date-time
+  /echo:
+    post:
+      summary: Echo a message
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                message:
+                  type: string
+      responses:
+        '200':
+          description: Echoed message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /math/add:
+    get:
+      summary: Add two numbers
+      parameters:
+        - in: query
+          name: x
+          required: true
+          schema:
+            type: number
+        - in: query
+          name: y
+          required: true
+          schema:
+            type: number
+      responses:
+        '200':
+          description: Sum result
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: number

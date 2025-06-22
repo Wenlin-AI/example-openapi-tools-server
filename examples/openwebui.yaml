@@ -1,0 +1,4 @@
+tools:
+  - name: example
+    spec_url: http://localhost:8123/openapi.json
+    base_url: http://localhost:8123
